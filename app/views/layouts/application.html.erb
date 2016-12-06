@@ -11,7 +11,12 @@
   </head>
 
   <body>
-<%= render 'layouts/react_hot_assets' %>
-    <%= yield %>
+  <div class="container-fluid">
+  	<div class="row top">
+  		<span class="logo">BrutalFive</span>
+  	</div>
+	<%= render 'layouts/react_hot_assets' %>
+	    <%= yield %>
+  </div>
   </body>
 </html>
