@@ -15,7 +15,38 @@
  */
 @import "bootstrap";
 
+// HOME PAGE
+
 .logo {
 	font-family: 'Lato', sans-serif;
-	font-size: 32px;
+	font-size: 54px;
+	text-align: center;
+	font-weight: 700;
+	padding-top: 30%;
+}
+
+.initial-question {
+	// text-align: center;
+}
+	
+.initial-input-form {
+	width: 100%;
+	height: 60px;
+	font-size: 30px;
+}
+
+.initial-input-div {
+	padding: 0px;
+}
+
+.initial-button {
+	// width: 100%;
+	font-size: 30px;
+	height: 60px;
+}
+
+.home-description {
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom:20px;
 }
