@@ -10,11 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20161210150444) do
+=======
+ActiveRecord::Schema.define(version: 20161206033312) do
+>>>>>>> parent of b41d230... Created models for Groups and Expertise
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+<<<<<<< HEAD
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
     t.text     "body"
@@ -62,6 +67,8 @@ ActiveRecord::Schema.define(version: 20161210150444) do
     t.datetime "updated_at",   null: false
   end
 
+=======
+>>>>>>> parent of b41d230... Created models for Groups and Expertise
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false

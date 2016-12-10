@@ -36,9 +36,6 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'bootstrap-sass'
 gem 'react_webpack_rails'
-gem 'font-awesome-sass'
-
-
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
